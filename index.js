@@ -11,7 +11,7 @@ var handle = {}
 handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 handle["/show"] = requestHandlers.show;
-handle["/"] = requestHandlers.realfunction;
+handle["/"] = requestHandlers.start;
 
 server.start(router.route, handle);
 
